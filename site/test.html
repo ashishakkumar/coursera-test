@@ -8,69 +8,38 @@
 
 
 /***********MY EDIT***************/
-#box1 {
+#box {
   box-sizing: border-box;
-  background-color:grey;
-  margin-top: 10px;
+  background-color:lightgrey;
   border: 2px solid black;
-  margin-bottom: 10px;
   height: 200px;
   margin: 30px;
-  padding: 2px;
   padding-top: 44px;
   padding-left: 10px;
 
   }
 
-#box2 {
-  box-sizing: border-box;
-  margin-top: 10px;
-  background-color:grey;
-  position: relative;
-  border: 2px solid black;
-
-  height: 200px;
-  margin: 30px;
-   padding: 2px;
-   padding-top: 44px;
-   padding-left: 10px;
   
-} 
-#box3 {
-  box-sizing: border-box;
-margin-top: 10px;
-  background-color:grey;
-position: relative;
-  border: 2px solid black;
-  margin-bottom: 10px;
-  height: 200px;
-  margin: 30px;
-   padding: 2px;
-   padding-top: 44px;
-   padding-left: 10px;
-  
-} 
+ 
 #boxsmall1 {
   box-sizing: border-box;
-  background-color:magenta;
-position: relative;
-
-  text-align: center;
-  border: 2px solid black;
-  width: 90px;
-  height: 35px;
-  font-style: candara;
-  top: -142px;
-  right :-214px;
-}
-#boxsmall2 {
-  box-sizing: border-box;
-  background-color: brown;
   position: relative;
+  background-color: magenta;
  width: 90px;
   text-align: center;
   border: 2px solid black;
-  top: -142px;
+  top: -162px;
+  height: 35px;
+right: -214px;}
+
+#boxsmall2 {
+  box-sizing: border-box;
+  position: relative;
+  background-color: brown;
+  width: 90px;
+  text-align: center;
+  border: 2px solid black;
+  top: -162px;
   height: 35px;
 right: -214px;
   
@@ -83,13 +52,9 @@ right: -214px;
  width: 90px;
   text-align: center;
   border: 2px solid black;
-top: -142px;
+top: -162px;
   height: 35px;
-
-  right: -214px;
-  bottom: 200px;
-  font-style: candara;
-  
+   right: -214px;
 } 
 /********** Base styles **********/
 
@@ -154,12 +119,14 @@ top: -142px;
   }
   .col-md-3 {
     width: 25%;
+
   }
   .col-md-4 {
     width: 33.33%;
   }
   .col-md-5 {
-    width: 41.66%;
+    width: 42.66%;
+    
   }
   .col-md-6 {
     width: 50%;
@@ -188,19 +155,20 @@ top: -142px;
 </head>
 <body>
 <h1 style="font-family:candara;text-align: center;font-size: 60px;">Our menu</h1>
-
+<div>
+  <div class="col-md-5">
+  <div id="box" class="col-lg-3"  style="font-family:candara">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. 
+     <div  id="boxsmall1" style="font-family:candara">Chicken</div></div></div></div>
+<div class="col-md-5">
+  <div id="box" class="col-lg-3"  style="font-family:candara">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. 
+     <div  id="boxsmall2"  style="font-family:candara">Beef</div></div></div></div>
 <div >
-  <div class="col-lg-3 col-md-5" id="box1" style="font-family:candara">
+   <div class="col-md-5">
+  <div id="box" class="col-lg-3"   style="font-family:candara" >
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. 
-     <div class="col-lg-3 col-md-6" id="boxsmall1" style="font-family: candara;">Chicken</div></div>
-
-  <div class="col-lg-3 col-md-5" id="box2" style="font-family:candara">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. 
-     <div class="col-lg-3 col-md-6" id="boxsmall2" style="color:white;font-family:candara;">Beef</div></div>
-
-  <div class="col-lg-3 col-md-11" id="box3" style="font-family:candara">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. 
-     <div  id="boxsmall3" class="col-lg-12 col-md-12" style="font-family: candara" ; >Sushi</div></div>
+     <div  id="boxsmall3" style="font-family:candara" >Sushi</div></div></div>
 </div>
 
 </body>
